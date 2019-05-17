@@ -20,25 +20,25 @@ The *Relation* class represents such a relation. Objects of type *Relation* stor
 ---
 Users should create and interface with *Relation* objects using the public methods described below.
 
-##### **public Relation(int[][] matrix)**
+#### **public Relation(int[][] matrix)**
 Constructor. Takes a 2D array of integers as a parameter. Returns an object of type *Relation*. Invisibly initializes the boolean instance variable for each property.
 
-##### **public String toString()**
+#### **public String toString()**
 Returns a formatted string that lists each property and indicates whether it is demonstrated by the relation.
 
-##### **public boolean get_reflexive()**
+#### **public boolean get_reflexive()**
 Returns *true* if the relation is reflexive, otherwise *false*.
 
-##### **public boolean get_antireflexive()**
+#### **public boolean get_antireflexive()**
 Returns *true* if the relation is antireflexive, otherwise *false*.
 
-##### **public boolean get_symmetric()**
+#### **public boolean get_symmetric()**
 Returns *true* if the relation is symmetric, otherwise *false*.
 
-##### **public boolean get_antisymmetric()**
+#### **public boolean get_antisymmetric()**
 Returns *true* if the relation is antisymmetric, otherwise *false*.
 
-##### **public boolean get_transitive()**
+#### **public boolean get_transitive()**
 Returns *true* if the relation is transitive, otherwise *false*.
 
 ### Authors:
