@@ -11,9 +11,6 @@
   * to 'true' or 'false' indicating whether the relation demonstrates
   * each property.
   *
-  * Calling the 'toString()' method returns (as a formatted string)
-  * a summary of the relation's properties.
-  *
   * Author: Joseph Sturm
   * Date:   5/17/2019
   */
